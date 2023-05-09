@@ -1,2 +1,2 @@
 # DCC-602-SistemasDistribuidos
-Repositorio com o proposito de anexar as atividades da diciplinas de Sistemas Distribuidos dos alunos Rosialdo Vicente e Venicius Jacob
+Repositório com o propósito de anexar as atividades da disciplinas de Sistemas Distribuidos dos alunos Rosialdo Vicente e Venicius Jacob
