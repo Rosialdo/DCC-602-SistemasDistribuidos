@@ -1,0 +1,17 @@
+#1 - verifique se você tem o grpcio e o grpcio-tools instalados em sua máquina.
+# pip install grpcio grpcio-tools
+
+#também é necessário instalar a lib click
+# pip install click
+
+#2 - Certifique-se de salvar o arquivo remote_control.proto, server.py e client.py na mesma pasta. Em seguida, você pode gerar os arquivos Python necessários para o gRPC executando o seguinte comando: 
+
+# python -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. remote_control.proto
+
+#para iniciar o servidor, execute o seguinte comando:
+
+#3 python server.py
+
+#E para executar um comando na máquina Linux usando o cliente, execute o seguinte comando:
+
+#4 python client.py "seu_comando_aqui"
