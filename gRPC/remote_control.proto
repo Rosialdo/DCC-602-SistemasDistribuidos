@@ -1,15 +1,15 @@
 syntax = "proto3";
 
-package remote_control;
+package remotecontrol;
+
+message CommandRequest {
+  string command = 1;
+}
+
+message CommandResponse {
+  string output = 1;
+}
 
 service RemoteControl {
-    rpc ExecuteCommand (ExecuteCommandRequest) returns (ExecuteCommandResponse) {}
-}
-
-message ExecuteCommandRequest {
-    string command = 1;
-}
-
-message ExecuteCommandResponse {
-    string output = 1;
+  rpc ExecuteCommand(CommandRequest) returns (CommandResponse) {}
 }
