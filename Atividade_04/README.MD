@@ -11,7 +11,7 @@ A aplicação deverá ser composta por um servidor e um cliente, implementados u
 ## Como rodar a aplicação:
 
 ### Requisitos:
-* Maquina com o python 3.1X.X (versão usada no teste ou superior)
+* Maquina com o python 3.1X (versão usada no teste ou superior)
 
 ### verifique se você tem o grpcio e o grpcio-tools instalados em sua máquina.
 
